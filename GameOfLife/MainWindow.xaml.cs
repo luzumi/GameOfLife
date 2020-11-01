@@ -35,7 +35,7 @@ namespace GameOfLife
                 for (int j = 0; j < AnzahlZellenBreit; j++)
                 {
                     Rectangle r = DefeniereRechteck(j, i);
-                    r.Fill = (random.Next(0, 13)%9 == 0) ? Brushes.Red : Brushes.Beige;
+                    r.Fill = (random.Next(0, 13)%9 == 0) ? Brushes.Blue : Brushes.Beige;
                     // r.Fill = Brushes.Beige;
                 }
             }
